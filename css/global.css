@@ -145,3 +145,57 @@ nav li:hover {
     font-family: 'Shadows Into Light Two', cursive;
     font-size: inherit;
 }
+.container {
+    width: 1000px;
+    margin: auto;
+    background-color: #E8E5E280
+}
+.row {
+    display: flex;
+    flex-wrap: nowrap;
+ 
+}
+.col {
+    width: 100%;
+    margin: 20px;
+}
+
+footer {
+    background-color: #E8E5E280;
+    color: black;   
+}
+
+.container2 {
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+    float:left;
+  
+}
+.w-25 {
+    width: 25%;
+    font-size: 40px;
+}
+.w-75 {
+    width: 75%;
+}
+.grid-container {
+    width: 100%;
+    padding: 5px;
+    font-size: 40px;
+    float:left;
+    background-color: #E8E5E280;
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: left;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+}
+
+#copywrite {
+    font-size: .8em;
+    color: #262933;
+}
