@@ -28,12 +28,16 @@
     padding: 20px;
 }
 
-#team h2 , #review h2{
+#team h2 , #review h24
     margin-bottom: 10px;
 }
 
 #review i {
     color: #262933;
+}
+
+#team p, #review p {
+    width: 400px;
 }
 
 /** 2019 Best Destinations Styling **/
