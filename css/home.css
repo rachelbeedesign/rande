@@ -1,1 +1,41 @@
+/**     Stylsheet for HOME page     **/
+
+/** Color Palette
+
+    light grey  #E8E5E2
+    dark grey   #262933
+    pink        #F78D8D
+    orange      #FAA867
+    blue        #78C9E9
+    green       #5BDEC2
+
+**/
+
+#best-dest {
+    padding: 55px 15px;
+    /**background-color: #E8E5E280;**/
+}
+
+#best-dest h2 {
+    text-align: center;
+}
+
+#best-dest h3 {
+    padding-top: 15px;
+}
+
+#best-dest p {
+    max-width: 750px;
+    margin: auto;
+    padding: 10px 0 0 0;
+}
+
+#best-dest .item {
+    background-color: #fff;
+    box-shadow: 2px 2x 10px 10px #E8E5E2 inset;
+}
+
+#best-dest img {
+    width: 100%;
+}
 
