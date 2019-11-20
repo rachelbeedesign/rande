@@ -66,6 +66,10 @@ h2 {
     width: 25%;
 }
 
+.w-50 {
+    width: 50%;
+}
+
 .w-75 {
     width: 75%;
 }
@@ -131,6 +135,7 @@ nav li:hover {
     background-attachment: fixed;
     height: 650px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -141,15 +146,28 @@ nav li:hover {
     color: #fff;
 }
 
+.hero h2 {
+    color: white;
+}
+
 .hero span {
     font-family: 'Shadows Into Light Two', cursive;
     font-size: inherit;
 }
+
+#cta {
+    background-color: #E8E5E280;
+    font-size: .75em;
+    padding: 15px 25px;
+    margin-top: 200px;
+}
+
 .container {
     width: 1000px;
     margin: auto;
-    background-color: #E8E5E280
+    background-color: 
 }
+
 .row {
     display: flex;
     flex-wrap: nowrap;
@@ -161,8 +179,9 @@ nav li:hover {
 }
 
 footer {
-    background-color: #E8E5E280;
-    color: black;   
+    background-color: #26293333;
+    color: black;
+    padding: 15px;
 }
 
 .container2 {
@@ -174,7 +193,7 @@ footer {
 }
 .w-25 {
     width: 25%;
-    font-size: 40px;
+    font-size: 50px;
 }
 .w-75 {
     width: 75%;
@@ -182,9 +201,8 @@ footer {
 .grid-container {
     width: 100%;
     padding: 5px;
-    font-size: 40px;
+    font-size: 50px;
     float:left;
-    background-color: #E8E5E280;
     display: grid;
     grid-template-columns: auto auto;
     text-align: left;
@@ -199,3 +217,23 @@ div {
     font-size: .8em;
     color: #262933;
 }
+
+label, input, select {
+    padding: 5px;
+    margin: 5px;
+}
+
+.grid-container a {
+    display: block;
+    width: 20px;
+}
+
+
+
+
+
+
+
+
+
+
