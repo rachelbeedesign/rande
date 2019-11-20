@@ -11,8 +11,36 @@
 
 **/
 
+/** Our Team Styling **/
+
+#team, #review {
+    background-color: #E8E5E280;
+}
+
+#team div, #review div {
+    justify-content: center;
+}
+
+#team img, #review img {
+    width: 250px;
+    border-radius: 175px;
+    float: left;
+    padding: 20px;
+}
+
+#team h2 , #review h2{
+    margin-bottom: 10px;
+}
+
+#review i {
+    color: #262933;
+}
+
+/** 2019 Best Destinations Styling **/
+
 #best-dest {
     padding: 55px 15px;
+    clear: both;
     /**background-color: #E8E5E280;**/
 }
 
@@ -21,7 +49,7 @@
 }
 
 #best-dest h3 {
-    padding-top: 15px;
+    padding: 15px 15px 0 15px;
 }
 
 #best-dest p {
@@ -33,9 +61,21 @@
 #best-dest .item {
     background-color: #fff;
     box-shadow: 2px 2x 10px 10px #E8E5E2 inset;
+    transition: background-color .2s linear .1s;
+    border-left: 4px solid #E8E5E280;
+}
+
+#best-dest .item:hover {
+    background-color: #E8E5E280;
+
 }
 
 #best-dest img {
     width: 100%;
 }
+
+#best-dest .item p {
+    padding: 10px 15px;
+}
+
 
