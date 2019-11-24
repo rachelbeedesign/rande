@@ -4,6 +4,15 @@ Rachel Ormsbee and Emma Jacobs
 
 --
 
+11/20/19
+
+Things to Remember:
+-validate all html and css pages
+-optimize images
+
+
+--
+
 11/14/19
 
 Important links:

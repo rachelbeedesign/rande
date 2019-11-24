@@ -13,8 +13,23 @@
 
 /** Basic Styling **/
 
-h1, h2, h3, h4, h5, h6 {
+html {
+    font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
     font-family: 'Alegreya Sans', sans-serif;
+    color: #000;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+h2 {
+    font-size: 2.25em;
+    color: #faa876;
 }
 
 /** Helper Classes **/
@@ -30,6 +45,33 @@ h1, h2, h3, h4, h5, h6 {
 .container {
     width: 1000px;
     margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.col {
+    width: 100%;
+    margin: 20px;
+}
+
+.vert-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-75 {
+    width: 75%;
 }
 
 /** Header Styles **/
@@ -93,6 +135,7 @@ nav li:hover {
     background-attachment: fixed;
     height: 650px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -103,7 +146,94 @@ nav li:hover {
     color: #fff;
 }
 
+.hero h2 {
+    color: white;
+}
+
 .hero span {
     font-family: 'Shadows Into Light Two', cursive;
     font-size: inherit;
 }
+
+#cta {
+    background-color: #E8E5E280;
+    font-size: .75em;
+    padding: 15px 25px;
+    margin-top: 200px;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+    background-color: 
+}
+
+.row {
+    display: flex;
+    flex-wrap: nowrap;
+ 
+}
+.col {
+    width: 100%;
+    margin: 20px;
+}
+
+footer {
+    background-color: #26293333;
+    color: black;
+    padding: 15px;
+}
+
+.container2 {
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+    float:left;
+  
+}
+.w-25 {
+    width: 25%;
+    font-size: 50px;
+}
+.w-75 {
+    width: 75%;
+}
+.grid-container {
+    width: 100%;
+    padding: 5px;
+    font-size: 50px;
+    float:left;
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: left;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+}
+
+#copywrite {
+    font-size: .8em;
+    color: #262933;
+}
+
+label, input, select {
+    padding: 5px;
+    margin: 5px;
+}
+
+.grid-container a {
+    display: block;
+    width: 20px;
+}
+
+
+
+
+
+
+
+
+
+

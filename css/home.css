@@ -1,0 +1,85 @@
+/**     Stylsheet for HOME page     **/
+
+/** Color Palette
+
+    light grey  #E8E5E2
+    dark grey   #262933
+    pink        #F78D8D
+    orange      #FAA867
+    blue        #78C9E9
+    green       #5BDEC2
+
+**/
+
+/** Our Team Styling **/
+
+#team, #review {
+    background-color: #E8E5E280;
+}
+
+#team div, #review div {
+    justify-content: center;
+}
+
+#team img, #review img {
+    width: 250px;
+    border-radius: 175px;
+    float: left;
+    padding: 20px;
+}
+
+#team h2 , #review h24
+    margin-bottom: 10px;
+}
+
+#review i {
+    color: #262933;
+}
+
+#team p, #review p {
+    width: 400px;
+}
+
+/** 2019 Best Destinations Styling **/
+
+#best-dest {
+    padding: 55px 15px;
+    clear: both;
+    /**background-color: #E8E5E280;**/
+}
+
+#best-dest h2 {
+    text-align: center;
+}
+
+#best-dest h3 {
+    padding: 15px 15px 0 15px;
+}
+
+#best-dest p {
+    max-width: 750px;
+    margin: auto;
+    padding: 10px 0 0 0;
+}
+
+#best-dest .item {
+    background-color: #fff;
+    box-shadow: 2px 2x 10px 10px #E8E5E2 inset;
+    transition: background-color .2s linear .1s;
+    border-left: 4px solid #E8E5E280;
+}
+
+#best-dest .item:hover {
+    background-color: #E8E5E280;
+
+}
+
+#best-dest img {
+    width: 100%;
+}
+
+#best-dest .item p {
+    padding: 10px 15px;
+}
+
+
