@@ -1,1 +1,128 @@
+/** Stylesheet for VACATIONS page **/
 
+/** Color Palette
+
+    light grey  #E8E5E2
+    dark grey   #262933
+    pink        #F78D8D
+    orange      #FAA867
+    blue        #78C9E9
+    green       #5BDEC2
+
+**/
+
+
+
+
+/** VACATIONS Hero Content Stles **/
+
+.hero {
+    background-image: url(../images/vacations/vacations-hero.jpg);
+}
+
+
+
+/**     POPULAR PACKAGES Styling        **/
+
+#popular-packages {
+    padding: 55px 0;
+}
+
+#popular-packages article {
+    margin: 25px 15px;
+    padding: 0;
+    border-left: #F78D8D 4px solid;
+}
+
+#popular-packages a {
+    height: 325px;
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    background-size: 100%;
+}
+
+#article-1 {
+    background-image: url('../images/vacations/vacations-5.jpg');
+}
+
+#article-2 {
+    background-image: url('../images/vacations/vacations-3.jpg');
+}
+
+#article-3 {
+    background-image: url('../images/vacations/vacations-3.jpg');
+}
+
+#popular-packages a article {
+    width: 100%;
+}
+
+#popular-packages article div {
+    color: #262933;
+    background-color: #FFFFFFD9;
+    height: 90px;
+    padding: 10px;
+}
+
+#popular-packages h2 {
+    text-align: center;
+}
+
+#more-info {
+    max-width: 750px;
+    margin: auto;
+    padding: 10px 0 0 0;
+}
+
+/**     FAMILY OPTIONS Styling      **/
+
+.container-mini {
+    width: 750px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#family-options article {
+    width: 100%;
+    
+}
+
+#family-options {
+    background-color: #E8E5E280;
+    padding: 55px 0;
+}
+
+#family-options a {
+    margin: 15px 0;
+    padding: 35px;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-left: #5BDEC2 4px solid;
+}
+
+#family-options .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#family-options h2 {
+    text-align: center;
+}
+
+#family-options img {
+    width: 150px;
+    height: 100%;
+    border-radius: calc(100% / 2);;
+    float: left;
+    margin-right: 45px;
+}
+
+#family-options h3 {
+    color: ;
+}
